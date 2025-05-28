@@ -223,3 +223,12 @@ document.addEventListener('DOMContentLoaded', () => {
         }, 100);
     });
 });
+
+document.getElementById('downloadBtn').addEventListener('click', function() {
+    const link = document.createElement('a');
+    link.href = 'Resume2.pdf';
+    link.download = 'Ashutosh Pal-Resume2.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+});

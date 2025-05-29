@@ -224,6 +224,8 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
+
+// Download button functionality
 document.getElementById('downloadBtn').addEventListener('click', function() {
     const link = document.createElement('a');
     link.href = 'Resume2.pdf';

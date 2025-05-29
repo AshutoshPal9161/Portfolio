@@ -38,7 +38,7 @@ header.scrolled .nav-links a:hover {
 
 @media (max-width: 1024px) {
     header {
-        background-color: rgba(44, 62, 80, 0.95);
+        background-color: rgba(192, 198, 205, 0.95);
     }
     
     .logo,
